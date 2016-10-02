@@ -54,7 +54,7 @@ main {
   width: 400px;
 
   margin-right: 2vw;
-  margin-left: 2vw;
+  margin-left: 2.4vw;
   margin-bottom: 4vh;
 
   float: left;
@@ -65,8 +65,8 @@ main {
 
   width: 580px;
 
-  
-  margin-left: 23vw;
+  margin-right: 9vw;
+  margin-left: 2.3vw;
   
 
   float: left;
@@ -83,11 +83,33 @@ main {
   color: #white;
 }
 
+.ircHeader {
+  padding-left: 10px;
+  padding-top: 10px;
+
+  font-size: 18px;
+  text-align: center;
+  height: 30px;
+  width: 570px;
+
+  color: #white;
+}
+
+
 .containerContent {
   background-color: #F5F1DE;
 
   padding: 10px;
 
+  min-height: 300px;
+}
+
+.ircContent {
+  background-color: #F5F1DE;
+
+  padding: 10px;
+
+  min-width: 560px;
   min-height: 300px;
 }
 
